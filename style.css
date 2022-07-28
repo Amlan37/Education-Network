@@ -1,53 +1,58 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body {
-    font-family: 'Montserrat', sans-serif;
-} */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Montserrat', sans-serif;
-}
 
-section {
-    margin-bottom: 200px;
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Montserrat', sans-serif;
+ }
 
-.carousel-inner {
-    position: relative;
-    z-index: -1;
-}
+ section {
+     margin-bottom: 200px;
+ }
 
-.carousel-inner::after {
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+ .carousel-inner {
+     position: relative;
+     z-index: -1;
+ }
 
-}
+ .carousel-inner::after {
+     background: rgba(0, 0, 0, 0.5);
+     opacity: 1;
+     content: "";
+     display: block;
+     position: absolute;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
 
-.carousel-caption {
-    position: absolute;
-    z-index: 10;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #D0CEDF;
-    text-align: center;
-}
+ }
 
-.ab {
-    text-align: justify;
-    font-size: large !important;
-    color: dimgrey;
-}
+ .carousel-caption {
+     font-family: 'Montserrat', sans-serif;
+     position: absolute;
+     z-index: 10;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #D0CEDF;
+     text-align: center;
+ }
+
+ .ab {
+     text-align: justify;
+     font-size: large !important;
+     color: dimgrey;
+ }
+
+ .t {
+     text-align: right;
+     color: tomato;
+     font-size: smaller;
+ }
